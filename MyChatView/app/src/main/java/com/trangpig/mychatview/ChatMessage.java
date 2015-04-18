@@ -1,0 +1,15 @@
+package com.trangpig.mychatview;
+
+/**
+ * Created by TrangPig on 04/08/2015.
+ */
+public class ChatMessage {
+    public boolean left;
+    public String message;
+
+    public ChatMessage(boolean left, String message) {
+        super();
+        this.left = left;
+        this.message = message;
+    }
+}
